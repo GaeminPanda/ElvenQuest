@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerShooting : MonoBehaviour
+public class CharacterShooting : MonoBehaviour
 {
     public Gun gun;
 
