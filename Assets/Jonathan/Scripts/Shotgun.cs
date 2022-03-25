@@ -11,6 +11,7 @@ public class Shotgun : MonoBehaviour
     public int bulletCount;
     float spray;
     float bulletspeed;
+    public GameObject mainplayer;
 
 
 
@@ -36,13 +37,35 @@ public class Shotgun : MonoBehaviour
     }
     void Shoot()
     {
-        GameObject b = Instantiate(Bullet, FirePoint.transform.position, Quaternion.identity);
-        Rigidbody2D rb2bullet = b.GetComponent<Rigidbody2D>();
-        spray = Random.Range(-1.5f, 4.5f);
-        bulletspeed = Random.Range(10, 15);
-        rb2bullet.AddForce(bulletSpeed * (transform.forward + new Vector3(bulletspeed, spray, 0)));
+        //GameObject b = Instantiate(Bullet, FirePoint.transform.position, Quaternion.identity);
+        //Rigidbody2D rb2bullet = b.GetComponent<Rigidbody2D>();
+        //spray = Random.Range(-1.5f, 4.5f);
+        //bulletspeed = Random.Range(10, 15);
+        //rb2bullet.AddForce(bulletSpeed * (transform.forward + new Vector3(bulletspeed, spray, 0)));
 
-        bulletCount--;
+        //bulletCount--;
+        SpriteRenderer sr;
+        sr = mainplayer.GetComponent<SpriteRenderer>();
+        if (sr.flipX == true)
+        {
+            GameObject b = Instantiate(Bullet, FirePoint.transform.position, Quaternion.identity);
+            Rigidbody2D rb2bullet = b.GetComponent<Rigidbody2D>();
+            spray = Random.Range(-1.5f, 4.5f);
+            bulletspeed = Random.Range(10, 15);
+            rb2bullet.AddForce(bulletSpeed * (transform.forward + new Vector3(bulletspeed, spray, 0)));
+
+            bulletCount--;
+        }
+        if (sr.flipX == false)
+        {
+            GameObject b = Instantiate(Bullet, FirePoint.transform.position, Quaternion.identity);
+            Rigidbody2D rb2bullet = b.GetComponent<Rigidbody2D>();
+            spray = Random.Range(-1.5f, 4.5f);
+            bulletspeed = Random.Range(10, 15);
+            rb2bullet.AddForce(-bulletSpeed * (transform.forward + new Vector3(bulletspeed, spray, 0)));
+
+            bulletCount--;
+        }
     }
 
 }

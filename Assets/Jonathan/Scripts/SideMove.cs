@@ -22,17 +22,17 @@ public class SideMove : MonoBehaviour
     private void FixedUpdate()
     {
 
-        //Move right
+        //Move left
         if(Input.GetAxis("Horizontal")>0)
         {
-            sr.flipX = false;
+            sr.flipX = true;
             gun.transform.localPosition = new Vector3(xGun, gun.transform.localPosition.y, gun.transform.localPosition.z);
             rb2.AddForce(new Vector2(accel, 0));
         }
-        //Move left
+        //Move right
         if (Input.GetAxis("Horizontal") < 0)
         {
-            sr.flipX = true;
+            sr.flipX = false;
             gun.transform.localPosition = new Vector3(-xGun, gun.transform.localPosition.y, gun.transform.localPosition.z);
             rb2.AddForce(new Vector2(-accel, 0));
         }
