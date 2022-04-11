@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Jonathan/Jonathan Scene.unity
     guid: a15f18508dd98d742a27e8ffb64f5bb2
+  - enabled: 1
+    path: Assets/Micheal/Credits.unity
+    guid: 6af11e49b20e6684789e3e1060358941
   m_configObjects: {}
