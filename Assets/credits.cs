@@ -18,6 +18,6 @@ public class credits : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene("Credits");
+        SceneManager.LoadScene("Credit Scene");
     }
 }
