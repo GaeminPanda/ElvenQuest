@@ -33,7 +33,7 @@ public class Shotgun : MonoBehaviour
     IEnumerator reloadtimer()
     {
         yield return new WaitForSeconds(.5f);
-        bulletCount = 24;
+        bulletCount = 36;
     }
     void Shoot()
     {
