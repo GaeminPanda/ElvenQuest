@@ -50,7 +50,7 @@ public class Shotgun : MonoBehaviour
         {
             GameObject b = Instantiate(Bullet, FirePoint.transform.position, Quaternion.identity);
             Rigidbody2D rb2bullet = b.GetComponent<Rigidbody2D>();
-            spray = Random.Range(-1.5f, 4.5f);
+            spray = Random.Range(-2.5f, 5f);
             bulletspeed = Random.Range(10, 15);
             rb2bullet.AddForce(bulletSpeed * (transform.forward + new Vector3(bulletspeed, spray, 0)));
 
@@ -60,7 +60,7 @@ public class Shotgun : MonoBehaviour
         {
             GameObject b = Instantiate(Bullet, FirePoint.transform.position, Quaternion.identity);
             Rigidbody2D rb2bullet = b.GetComponent<Rigidbody2D>();
-            spray = Random.Range(-1.5f, 4.5f);
+            spray = Random.Range(-2.5f, 5f);
             bulletspeed = Random.Range(10, 15);
             rb2bullet.AddForce(-bulletSpeed * (transform.forward + new Vector3(bulletspeed, spray, 0)));
 
