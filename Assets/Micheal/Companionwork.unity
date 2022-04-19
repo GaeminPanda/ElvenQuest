@@ -754,6 +754,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 3274974356048712907, guid: 3a46329a4ed86924dbd610b4b4ba42f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 3274974356048712944, guid: 3a46329a4ed86924dbd610b4b4ba42f9,
         type: 3}
       propertyPath: Bullet
@@ -848,12 +853,12 @@ PrefabInstance:
     - target: {fileID: 3274974356048712951, guid: 3a46329a4ed86924dbd610b4b4ba42f9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.11
+      value: -1.64
       objectReference: {fileID: 0}
     - target: {fileID: 3274974356048712951, guid: 3a46329a4ed86924dbd610b4b4ba42f9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.21
+      value: -2.64
       objectReference: {fileID: 0}
     - target: {fileID: 3274974356048712951, guid: 3a46329a4ed86924dbd610b4b4ba42f9,
         type: 3}
