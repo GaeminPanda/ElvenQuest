@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Jonathan/Menu.unity
+    path: Assets/Jonathan/Menu/Menu.unity
     guid: 992434320bd9e45479e586c32a063463
   - enabled: 1
-    path: Assets/Jonathan/Credit Scene.unity
+    path: Assets/Jonathan/Menu/Credit Scene.unity
     guid: edb2cc8ee8a82114fa5940472cf7ba9f
   - enabled: 1
     path: Assets/Jonathan/Jonathan Scene.unity

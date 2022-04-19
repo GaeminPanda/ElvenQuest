@@ -16,6 +16,16 @@ public class EnemyBehaviour : MonoBehaviour
         Healthbar.SetHealth(Hitpoints, MaxHitpoints);
     }
 
+    public void TakeHit(float damage)
+    {
+        Hitpoints -= damage;
+        Healthbar.SetHealth(Hitpoints, MaxHitpoints);
+        if (Hitpoints <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {

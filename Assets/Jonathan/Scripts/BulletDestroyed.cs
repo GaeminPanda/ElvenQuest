@@ -17,6 +17,14 @@ public class BulletDestroyed : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+
+        var enemy = collision.collider.GetComponent<EnemyBehaviour>();
+        if (enemy)
+        {
+            Debug.Log("take hit");
+            enemy.TakeHit(1);
+        }
+
         if (collision.gameObject.tag == "Enemy")
         {
             //Destroy(collision.gameObject);
