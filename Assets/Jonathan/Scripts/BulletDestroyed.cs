@@ -21,7 +21,6 @@ public class BulletDestroyed : MonoBehaviour
         var enemy = collision.collider.GetComponent<EnemyBehaviour>();
         if (enemy)
         {
-            Debug.Log("take hit");
             enemy.TakeHit(1);
         }
 

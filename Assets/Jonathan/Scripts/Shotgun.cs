@@ -53,7 +53,7 @@ public class Shotgun : MonoBehaviour
             spray = Random.Range(-2.5f, 5f);
             bulletspeed = Random.Range(10, 15);
             rb2bullet.AddForce(bulletSpeed * (transform.forward + new Vector3(bulletspeed, spray, 0)));
-
+            
             bulletCount--;
         }
         if (sr.flipX == false)
@@ -63,7 +63,7 @@ public class Shotgun : MonoBehaviour
             spray = Random.Range(-2.5f, 5f);
             bulletspeed = Random.Range(10, 15);
             rb2bullet.AddForce(-bulletSpeed * (transform.forward + new Vector3(bulletspeed, spray, 0)));
-
+           
             bulletCount--;
         }
     }
