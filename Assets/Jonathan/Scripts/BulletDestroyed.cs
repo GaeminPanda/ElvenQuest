@@ -30,5 +30,11 @@ public class BulletDestroyed : MonoBehaviour
             //Destroy(collision.gameObject);
             Destroy(this.gameObject);
         }
+
+        if (collision.gameObject.tag == "Ground")
+        {
+            Destroy(this.gameObject);
+        }
+
     }
 }
