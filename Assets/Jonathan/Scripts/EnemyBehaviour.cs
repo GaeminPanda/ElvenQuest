@@ -8,6 +8,7 @@ public class EnemyBehaviour : MonoBehaviour
     public float Hitpoints;
     public float MaxHitpoints = 20;
     public HealthbarBehavior Healthbar;
+    //private GameObject player;
 
     // Start is called before the first frame update
     void Start()
@@ -36,4 +37,15 @@ public class EnemyBehaviour : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        var player = collision.collider.GetComponent<PlayerBehavior>();
+        player = collision.collider.GetComponent<PlayerBehavior>();
+        if (player)
+        {
+            player.TakeHit(1);
+        }
+    }
+
 }

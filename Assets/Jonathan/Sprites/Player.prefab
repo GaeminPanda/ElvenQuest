@@ -42,7 +42,6 @@ GameObject:
   - component: {fileID: 7959402038593191634}
   - component: {fileID: 7959402038593191633}
   - component: {fileID: 7959402038593191632}
-  - component: {fileID: 7959402038593191637}
   - component: {fileID: 7959402038593191636}
   - component: {fileID: 7959402038593191638}
   m_Layer: 0
@@ -114,7 +113,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!50 &7959402038593191633
@@ -164,20 +163,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &7959402038593191637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7959402038593191663}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2c81ef5918a58c4089de3588608f243, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpStrength: 400
-  grounded: 0
 --- !u!114 &7959402038593191636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,6 +179,7 @@ MonoBehaviour:
   FirePoint: {fileID: 7959402037585499645}
   bulletSpeed: 100
   bulletCount: 5
+  mainplayer: {fileID: 0}
 --- !u!114 &7959402038593191638
 MonoBehaviour:
   m_ObjectHideFlags: 0

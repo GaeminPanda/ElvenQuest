@@ -26,25 +26,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4344686, y: 0.13455534}
   m_EdgeRadius: 0
---- !u!95 &881236392
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2404973872733236532}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3b78c76cdd933cc45bfd5570490cf097, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &5698556584582566875
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -231,7 +212,7 @@ PrefabInstance:
     - target: {fileID: 7959402038593191663, guid: 6607ff252013e9348ab86d17420d336b,
         type: 3}
       propertyPath: m_Name
-      value: Player
+      value: Player Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7959402038593191663, guid: 6607ff252013e9348ab86d17420d336b,
         type: 3}
