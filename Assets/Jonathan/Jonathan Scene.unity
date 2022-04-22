@@ -1936,7 +1936,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3900,6 +3900,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Bullet
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676752675528056938, guid: 47c6489dd51c24e4d8ea2d79a5e150b2,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.5477038
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676752675528056938, guid: 47c6489dd51c24e4d8ea2d79a5e150b2,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.5477038
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676752675528056938, guid: 47c6489dd51c24e4d8ea2d79a5e150b2,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.6415094
       objectReference: {fileID: 0}
     - target: {fileID: 5676752675528056938, guid: 47c6489dd51c24e4d8ea2d79a5e150b2,
         type: 3}
