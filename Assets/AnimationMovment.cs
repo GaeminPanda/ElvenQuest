@@ -8,12 +8,12 @@ public class AnimationMovment : MonoBehaviour
 
     //references
     Rigidbody2D rb2;
-    Spriterenderer sr;
+    SpriteRenderer sr;
 
     // Start is called before the first frame update
     void Start()
     {
-        rb2 = gameobject.GetComponent<Rigidbody2D>();
+        rb2 = gameObject.GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
