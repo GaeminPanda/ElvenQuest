@@ -10,6 +10,8 @@ public class CommunityFollow : MonoBehaviour
 
     public float speed = 50;
 
+    public bool movable = false;
+
     private bool GoingLeft = true;
     private bool patroling = true;
 
@@ -29,69 +31,71 @@ public class CommunityFollow : MonoBehaviour
     void Update()
     {
         //Debug.Log(patroling);
-
-        if (patroling)
+        if(movable)
         {
-            float currentSpeed = speed;
-
-            if (GoingLeft)
+            if (patroling)
             {
-                currentSpeed = -speed;
-            }
+                float currentSpeed = speed;
 
-            if (transform.position.x > PatrolPointTwo.position.x)
-            {
-                GoingLeft = true;
-            }
-            else if (transform.position.x < PatrolPointOne.position.x)
-            {
-                GoingLeft = false;
-            }
+                if (GoingLeft)
+                {
+                    currentSpeed = -speed;
+                }
 
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, player.transform.position - transform.position, 100);
+                if (transform.position.x > PatrolPointTwo.position.x)
+                {
+                    GoingLeft = true;
+                }
+                else if (transform.position.x < PatrolPointOne.position.x)
+                {
+                    GoingLeft = false;
+                }
 
-            if (hit.transform.tag == "Player" && (player.transform.position - transform.position).magnitude < 10)
-            {
-                patroling = false;
-            }
+                RaycastHit2D hit = Physics2D.Raycast(transform.position, player.transform.position - transform.position, 100);
 
-            Debug.DrawRay(transform.position, player.transform.position - transform.position, Color.red, 1);
+                if (hit.transform.tag == "Player" && (player.transform.position - transform.position).magnitude < 10)
+                {
+                    patroling = false;
+                }
 
-            rb2.MovePosition(transform.position + (new Vector3(currentSpeed, 0, 0) * Time.deltaTime));
+                Debug.DrawRay(transform.position, player.transform.position - transform.position, Color.red, 1);
 
-
-        }
-        else
-        {
-            float currentSpeed = speed;
-
-            if (FollowingLeft)
-            {
-                currentSpeed = -speed;
-            }
-
-            if (transform.position.x > player.transform.position.x)
-            {
-                FollowingLeft = true;
-            }
-            else if (transform.position.x < player.transform.position.x)
-            {
-                FollowingLeft = false;
-            }
-
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, player.transform.position - transform.position, 100);
-
-            if (hit.transform.tag != "Player" || (player.transform.position - transform.position).magnitude > 100)
-            {
-                patroling = true;
-            }
-
-            if (hit.distance > 5)
-            {
                 rb2.MovePosition(transform.position + (new Vector3(currentSpeed, 0, 0) * Time.deltaTime));
-            }
 
-            Debug.DrawRay(transform.position, player.transform.position - transform.position, Color.blue, 1);
+
+            }
+            else
+            {
+                float currentSpeed = speed;
+
+                if (FollowingLeft)
+                {
+                    currentSpeed = -speed;
+                }
+
+                if (transform.position.x > player.transform.position.x)
+                {
+                    FollowingLeft = true;
+                }
+                else if (transform.position.x < player.transform.position.x)
+                {
+                    FollowingLeft = false;
+                }
+
+                RaycastHit2D hit = Physics2D.Raycast(transform.position, player.transform.position - transform.position, 100);
+
+                if (hit.transform.tag != "Player" || (player.transform.position - transform.position).magnitude > 100)
+                {
+                    patroling = true;
+                }
+
+                if (hit.distance > 5)
+                {
+                    rb2.MovePosition(transform.position + (new Vector3(currentSpeed, 0, 0) * Time.deltaTime));
+                }
+
+                Debug.DrawRay(transform.position, player.transform.position - transform.position, Color.blue, 1);
+            }
         }
     }
 }
