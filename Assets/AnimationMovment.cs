@@ -9,18 +9,29 @@ public class AnimationMovment : MonoBehaviour
     //references
     Rigidbody2D rb2;
     SpriteRenderer sr;
+    Animator a;
 
     // Start is called before the first frame update
     void Start()
     {
         rb2 = gameObject.GetComponent<Rigidbody2D>();
         sr = gameObject.GetComponent<SpriteRenderer>();
+        a = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
         float horizvalue = Input.GetAxis("Horizontal");
+
+        if (horizvalue == 0)
+        {
+            a.SetBool("Moving", false);
+        }
+        else
+        {
+            a.SetBool("Moving", true);
+        }
 
         rb2.velocity = new Vector2(horizvalue * 2, rb2.velocity.y);
         
