@@ -31,7 +31,7 @@ public class CommunityFollow : MonoBehaviour
     void Update()
     {
         //Debug.Log(patroling);
-        if(movable)
+        if (movable)
         {
             if (patroling)
             {
