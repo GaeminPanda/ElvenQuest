@@ -19,8 +19,8 @@ TagManager:
   - 
   - Foreground
   - Background
-  - 
-  - 
+  - EnemyCollider
+  - Cage
   - 
   - 
   - 

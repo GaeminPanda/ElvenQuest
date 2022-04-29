@@ -1079,7 +1079,8 @@ GameObject:
   - component: {fileID: 424338761}
   - component: {fileID: 424338760}
   - component: {fileID: 424338762}
-  m_Layer: 0
+  - component: {fileID: 424338763}
+  m_Layer: 11
   m_Name: Cage
   m_TagString: Cage
   m_Icon: {fileID: 0}
@@ -1126,7 +1127,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b5ac1f5e651359e4fb484672c56bc3f3, type: 3}
-  m_Color: {r: 0.4056604, g: 0.22690831, b: 0.1511659, a: 0.56078434}
+  m_Color: {r: 0.4056604, g: 0.22690831, b: 0.1511659, a: 0.49803922}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1176,6 +1177,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &424338763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424338759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b41d5ddc4b444d4d99cc3dba5059787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  test: 0
+  enemies:
+  - {fileID: 662440524}
+  - {fileID: 1688540370}
+  - {fileID: 329126869}
+  - {fileID: 364581996}
+  elf: {fileID: 1675834460}
 --- !u!1 &451567280
 GameObject:
   m_ObjectHideFlags: 0
@@ -1616,10 +1636,10 @@ GameObject:
   m_Component:
   - component: {fileID: 662440529}
   - component: {fileID: 662440528}
-  - component: {fileID: 662440527}
   - component: {fileID: 662440526}
   - component: {fileID: 662440525}
   - component: {fileID: 662440530}
+  - component: {fileID: 662440527}
   m_Layer: 8
   m_Name: Enemy
   m_TagString: Enemy
@@ -1747,7 +1767,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 662440524}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.949337, y: -3.97, z: 7047.386}
+  m_LocalPosition: {x: 0.29, y: -3.68, z: 7047.386}
   m_LocalScale: {x: 1.2, y: 3, z: 1}
   m_Children:
   - {fileID: 2057554527}
@@ -8145,8 +8165,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PatrolPointOne: {fileID: 1629584787}
   PatrolPointTwo: {fileID: 407481590}
-  speed: 30
+  speed: 88
   movable: 1
+  inCage: 1
 --- !u!50 &1675834461
 Rigidbody2D:
   serializedVersion: 4
@@ -8360,7 +8381,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1688540370}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.8990974, y: -3.9153786, z: 7047.386}
+  m_LocalPosition: {x: -7.97, y: -3.34, z: 7047.386}
   m_LocalScale: {x: 1.1999999, y: 3, z: 1}
   m_Children:
   - {fileID: 341191683}
@@ -8456,15 +8477,47 @@ Tilemap:
   m_Enabled: 1
   m_Tiles: {}
   m_AnimatedTiles: {}
-  m_TileAssetArray: []
-  m_TileSpriteArray: []
-  m_TileMatrixArray: []
-  m_TileColorArray: []
+  m_TileAssetArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  m_TileSpriteArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  m_TileMatrixArray:
+  - m_RefCount: 0
+    m_Data:
+      e00: -0.0000000016383179
+      e01: 3.7763914e+19
+      e02: -0.120927215
+      e03: -0.120927215
+      e10: 4.37e-43
+      e11: 4.4e-43
+      e12: 2.4e-44
+      e13: 2.4e-44
+      e20: -715.9512
+      e21: 3.7763175e+19
+      e22: -0.0000000016433441
+      e23: 3.7763175e+19
+      e30: 4.5904e-41
+      e31: 4.4e-43
+      e32: 4.37e-43
+      e33: 4.4e-43
+  m_TileColorArray:
+  - m_RefCount: 0
+    m_Data: {r: 3.776184e+19, g: 3.776184e+19, b: 3.776184e+19, a: 3.776184e+19}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: 0, y: 0, z: 0}
-  m_Size: {x: 0, y: 0, z: 1}
+  m_Origin: {x: -10, y: -13, z: 0}
+  m_Size: {x: 36, y: 13, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:

@@ -11,6 +11,7 @@ public class CommunityFollow : MonoBehaviour
     public float speed = 50;
 
     public bool movable = false;
+    public bool inCage = true;
 
     private bool GoingLeft = true;
     private bool patroling = true;
@@ -53,7 +54,7 @@ public class CommunityFollow : MonoBehaviour
 
                 RaycastHit2D hit = Physics2D.Raycast(transform.position, player.transform.position - transform.position, 100);
 
-                if (hit.transform.tag == "Player" && (player.transform.position - transform.position).magnitude < 10)
+                if (!inCage && hit.transform.tag == "Player" && (player.transform.position - transform.position).magnitude < 10)
                 {
                     patroling = false;
                 }
@@ -64,7 +65,7 @@ public class CommunityFollow : MonoBehaviour
 
 
             }
-            else
+            else if(!inCage)
             {
                 float currentSpeed = speed;
 
