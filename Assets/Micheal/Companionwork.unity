@@ -863,7 +863,7 @@ Animator:
   m_GameObject: {fileID: 1629283165}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3b78c76cdd933cc45bfd5570490cf097, type: 2}
+  m_Controller: {fileID: 9100000, guid: bc418dc86826ff449848650ba4541133, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -873,6 +873,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1629283172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629283165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7d3c583aa8a2d54fa4f651411fd1e08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1629283173
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1184,13 +1196,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4944450490528272589, guid: 6e406288cb729a245a8a46f1eb7eb7fe,
         type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8364091
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944450490528272589, guid: 6e406288cb729a245a8a46f1eb7eb7fe,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 27.420458
+      value: 26.11
       objectReference: {fileID: 0}
     - target: {fileID: 4944450490528272589, guid: 6e406288cb729a245a8a46f1eb7eb7fe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.83
+      value: 2.65
       objectReference: {fileID: 0}
     - target: {fileID: 4944450490528272589, guid: 6e406288cb729a245a8a46f1eb7eb7fe,
         type: 3}

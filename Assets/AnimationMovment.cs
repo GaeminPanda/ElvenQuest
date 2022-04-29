@@ -24,6 +24,15 @@ public class AnimationMovment : MonoBehaviour
     {
         float horizvalue = Input.GetAxis("Horizontal");
 
+        if (Input.GetMouseButtonDown(0))
+        {
+            a.SetBool("Attacking", true);
+        }
+        else
+        {
+            a.SetBool("Attacking", false);
+        }
+
         if (horizvalue == 0)
         {
             a.SetBool("Moving", false);
