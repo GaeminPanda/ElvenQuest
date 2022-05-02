@@ -51,3 +51,6 @@ TagManager:
   - name: Foreground
     uniqueID: 156351379
     locked: 0
+  - name: Cage
+    uniqueID: 1348118489
+    locked: 0

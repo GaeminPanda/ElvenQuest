@@ -5,7 +5,6 @@ using System.Linq;
 
 public class Cage : MonoBehaviour
 {
-    public int test;
     [SerializeField]
     public GameObject[] enemies;
     SpriteRenderer spriteRenderer;
