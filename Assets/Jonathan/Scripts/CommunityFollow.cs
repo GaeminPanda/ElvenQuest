@@ -52,7 +52,7 @@ public class CommunityFollow : MonoBehaviour
                     GoingLeft = false;
                 }
 
-                RaycastHit2D hit = Physics2D.Raycast(transform.position, player.transform.position - transform.position, 100);
+                RaycastHit2D hit = Physics2D.Raycast(transform.position, player.transform.position - transform.position, 1000);
 
                 if (!inCage && hit.transform.tag == "Player" && (player.transform.position - transform.position).magnitude < 10)
                 {

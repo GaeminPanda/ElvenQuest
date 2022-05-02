@@ -23,6 +23,11 @@ public class BulletDestroyed : MonoBehaviour
         {
             enemy.TakeHit(1);
         }
+        var miniBoss = collision.collider.GetComponent<MiniBoss>();
+        if (miniBoss)
+        {
+            miniBoss.TakeHit(1);
+        }
 
         if (collision.gameObject.tag == "Enemy")
         {
