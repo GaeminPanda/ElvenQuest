@@ -1,25 +1,16 @@
 fileFormatVersion: 2
-guid: 27e821f928adb1a42a18ec52bd4e5037
+guid: 2c2496dff38adf04e867a99f7eae2696
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6630484178720537506
-    second: elf_sprite_0
+      213: -8161356531295160956
+    second: elf_idel_sprite_0
   - first:
-      213: 2038177864929779413
-    second: elf_sprite_1
+      213: -3752120792692475546
+    second: elf_idel_sprite_1
   - first:
-      213: 5423072284878023167
-    second: elf_sprite_2
-  - first:
-      213: 79094793538820578
-    second: elf_sprite_3
-  - first:
-      213: -2433015916626329646
-    second: elf_sprite_4
-  - first:
-      213: -9052163226835541617
-    second: elf_sprite_5
+      213: 220357001823973238
+    second: elf_idel_sprite_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -63,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 125
+  spritePixelsToUnits: 175
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -141,13 +132,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: elf_sprite_0
+      name: elf_idel_sprite_0
       rect:
         serializedVersion: 2
-        x: 81
-        y: 770
-        width: 227
-        height: 381
+        x: 24
+        y: 386
+        width: 395
+        height: 744
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +146,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e54c38ee4c9cbf3a0800000000000000
-      internalID: -6630484178720537506
+      spriteID: 48576dab9790dbe80800000000000000
+      internalID: -8161356531295160956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: elf_sprite_1
+      name: elf_idel_sprite_1
       rect:
         serializedVersion: 2
-        x: 485
-        y: 772
-        width: 233
-        height: 373
+        x: 645
+        y: 386
+        width: 451
+        height: 715
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,20 +167,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5de143c28ff094c10800000000000000
-      internalID: 2038177864929779413
+      spriteID: 6693535c40acdebc0800000000000000
+      internalID: -3752120792692475546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: elf_sprite_2
+      name: elf_idel_sprite_2
       rect:
         serializedVersion: 2
-        x: 872
-        y: 770
-        width: 223
-        height: 376
+        x: 1207
+        y: 386
+        width: 486
+        height: 676
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,71 +188,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff9ab6ba28f924b40800000000000000
-      internalID: 5423072284878023167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: elf_sprite_3
-      rect:
-        serializedVersion: 2
-        x: 1236
-        y: 770
-        width: 237
-        height: 363
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e9d670bb40091100800000000000000
-      internalID: 79094793538820578
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: elf_sprite_4
-      rect:
-        serializedVersion: 2
-        x: 1239
-        y: 892
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2dfbd9c1ae03c3ed0800000000000000
-      internalID: -2433015916626329646
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: elf_sprite_5
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 387
-        width: 328
-        height: 376
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f812d9f6181406280800000000000000
-      internalID: -9052163226835541617
+      spriteID: 67fec71968dde0300800000000000000
+      internalID: 220357001823973238
       vertices: []
       indices: 
       edges: []

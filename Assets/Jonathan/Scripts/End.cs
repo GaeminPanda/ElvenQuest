@@ -17,9 +17,13 @@ public class End : MonoBehaviour
         
     }
 
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene("End Scene");
+        if (collision.gameObject.tag == "Player")
+        {
+            SceneManager.LoadScene("End Scene");
+        }
     }
 
 }
