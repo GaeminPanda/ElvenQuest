@@ -52,7 +52,7 @@ public class EnemyFollow : MonoBehaviour
 
             RaycastHit2D hit = Physics2D.Raycast(transform.position, player.transform.position - transform.position, 100);
 
-            if (hit.transform.tag == "Player" && (player.transform.position - transform.position).magnitude < 10)
+            if (hit.transform.tag == "Player" && (player.transform.position - transform.position).magnitude < 30)
             {
                 patroling = false;
             }

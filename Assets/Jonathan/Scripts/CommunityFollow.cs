@@ -54,7 +54,7 @@ public class CommunityFollow : MonoBehaviour
 
                 RaycastHit2D hit = Physics2D.Raycast(transform.position, player.transform.position - transform.position, 1000);
 
-                if (!inCage && hit.transform.tag == "Player" && (player.transform.position - transform.position).magnitude < 10)
+                if (!inCage && hit.transform.tag == "Player" && (player.transform.position - transform.position).magnitude < 100)
                 {
                     patroling = false;
                 }
@@ -85,12 +85,12 @@ public class CommunityFollow : MonoBehaviour
 
                 RaycastHit2D hit = Physics2D.Raycast(transform.position, player.transform.position - transform.position, 100);
 
-                if (hit.transform.tag != "Player" || (player.transform.position - transform.position).magnitude > 100)
+                if (hit.transform.tag != "Player" || (player.transform.position - transform.position).magnitude > 1000)
                 {
                     patroling = true;
                 }
 
-                if (hit.distance > 5)
+                if (hit.distance > 2)
                 {
                     rb2.MovePosition(transform.position + (new Vector3(currentSpeed, 0, 0) * Time.deltaTime));
                 }
