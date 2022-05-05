@@ -18,14 +18,12 @@ public class Cage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print(123);
+        
         if(!enemies.ToList().Exists(x => x != null))
         {
             elf.inCage = false;
             Destroy(gameObject);
         }
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-    }
+    
 }
