@@ -1,34 +1,43 @@
 fileFormatVersion: 2
-guid: 80b0355b3891f094fbeb4bed5cc4607d
+guid: 09f453a4105b58b4d9ba0e9d4b9903f5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6971542121489340445
-    second: fox_attack_sprite_0
+      213: -6867292360818517145
+    second: fox_attack_sprite (1)_0
   - first:
-      213: -164647563266439412
-    second: fox_attack_sprite_1
+      213: 2674801220105147351
+    second: fox_attack_sprite (1)_1
   - first:
-      213: 7052456321813329603
-    second: fox_attack_sprite_2
+      213: 4261432381609345111
+    second: fox_attack_sprite (1)_2
   - first:
-      213: -6958055637495209524
-    second: fox_attack_sprite_3
+      213: -484798781793771091
+    second: fox_attack_sprite (1)_3
   - first:
-      213: -5163595019486887131
-    second: fox_attack_sprite_4
+      213: -1594616976199483871
+    second: fox_attack_sprite (1)_4
   - first:
-      213: -716054998624395717
-    second: fox_attack_sprite_5
+      213: 4415560627922046941
+    second: fox_attack_sprite (1)_5
   - first:
-      213: -410710968285336688
-    second: fox_attack_sprite_6
+      213: -672635983652464199
+    second: fox_attack_sprite (1)_6
   - first:
-      213: 8645788473744818000
-    second: fox_attack_sprite_7
+      213: -2229155558923095524
+    second: fox_attack_sprite (1)_7
   - first:
-      213: 848665965832452932
-    second: fox_attack_sprite_8
+      213: -5978543413551082178
+    second: fox_attack_sprite (1)_8
+  - first:
+      213: 6688080336879135848
+    second: fox_attack_sprite (1)_9
+  - first:
+      213: 8142654520420515424
+    second: fox_attack_sprite (1)_10
+  - first:
+      213: 7225817445659437370
+    second: fox_attack_sprite (1)_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -72,7 +81,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 175
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -150,13 +159,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fox_attack_sprite_0
+      name: fox_attack_sprite (1)_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 896
-        width: 695
-        height: 304
+        x: 1274
+        y: 970
+        width: 496
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d189b086f94efb060800000000000000
-      internalID: 6971542121489340445
+      spriteID: 76b98a87bf972b0a0800000000000000
+      internalID: -6867292360818517145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fox_attack_sprite_1
+      name: fox_attack_sprite (1)_1
       rect:
         serializedVersion: 2
-        x: 764
-        y: 896
-        width: 698
-        height: 304
+        x: 1444
+        y: 1189
+        width: 6
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c07ce5ed9ed07bdf0800000000000000
-      internalID: -164647563266439412
+      spriteID: 7d31629b98dce1520800000000000000
+      internalID: 2674801220105147351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fox_attack_sprite_2
+      name: fox_attack_sprite (1)_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 592
-        width: 698
-        height: 304
+        x: 1
+        y: 965
+        width: 494
+        height: 218
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c634afb8ab5fd160800000000000000
-      internalID: 7052456321813329603
+      spriteID: 7500c2c4c26a32b30800000000000000
+      internalID: 4261432381609345111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fox_attack_sprite_3
+      name: fox_attack_sprite (1)_3
       rect:
         serializedVersion: 2
-        x: 767
-        y: 592
-        width: 695
-        height: 304
+        x: 635
+        y: 970
+        width: 496
+        height: 217
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,20 +236,125 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc1a1b75345007f90800000000000000
-      internalID: -6958055637495209524
+      spriteID: da1e3a79316a549f0800000000000000
+      internalID: -484798781793771091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fox_attack_sprite_4
+      name: fox_attack_sprite (1)_4
       rect:
         serializedVersion: 2
-        x: 769
-        y: 697
+        x: 142
+        y: 793
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e72dc0f48ced9e0800000000000000
+      internalID: -1594616976199483871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_attack_sprite (1)_5
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 582
+        width: 498
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf8e771ff8374d30800000000000000
+      internalID: 4415560627922046941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_attack_sprite (1)_6
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 580
+        width: 498
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9df3bf2215aa6f0800000000000000
+      internalID: -672635983652464199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_attack_sprite (1)_7
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 574
+        width: 493
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c123d4964d27011e0800000000000000
+      internalID: -2229155558923095524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_attack_sprite (1)_8
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 648
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e355909e072f70da0800000000000000
+      internalID: -5978543413551082178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_attack_sprite (1)_9
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 578
         width: 13
-        height: 17
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +362,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 523028b00b93758b0800000000000000
-      internalID: -5163595019486887131
+      spriteID: 86ca4f4a1a5d0dc50800000000000000
+      internalID: 6688080336879135848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fox_attack_sprite_5
+      name: fox_attack_sprite (1)_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 718
-        height: 304
+        x: 29
+        y: 184
+        width: 511
+        height: 230
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,20 +383,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3e9957c5cf0016f0800000000000000
-      internalID: -716054998624395717
+      spriteID: 06eb46a0525800170800000000000000
+      internalID: 8142654520420515424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fox_attack_sprite_6
+      name: fox_attack_sprite (1)_11
       rect:
         serializedVersion: 2
-        x: 0
-        y: 296
-        width: 700
-        height: 304
+        x: 625
+        y: 192
+        width: 516
+        height: 215
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,50 +404,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09beef5ec8cdc4af0800000000000000
-      internalID: -410710968285336688
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fox_attack_sprite_7
-      rect:
-        serializedVersion: 2
-        x: 769
-        y: 300
-        width: 700
-        height: 304
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05ff9bc3fc20cf770800000000000000
-      internalID: 8645788473744818000
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fox_attack_sprite_8
-      rect:
-        serializedVersion: 2
-        x: 787
-        y: 0
-        width: 726
-        height: 304
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 44b3862133117cb00800000000000000
-      internalID: 848665965832452932
+      spriteID: a39e95ccea2474460800000000000000
+      internalID: 7225817445659437370
       vertices: []
       indices: 
       edges: []
