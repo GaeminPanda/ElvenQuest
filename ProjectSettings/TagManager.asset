@@ -8,6 +8,7 @@ TagManager:
   - Bullet
   - Enemy
   - Cage
+  - Elf
   layers:
   - Default
   - TransparentFX

@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class EnemyFollow : MonoBehaviour
 {
+
+    private SpriteRenderer sr;
+
     Rigidbody2D rb2;
     public Transform PatrolPointOne;
     public Transform PatrolPointTwo;
@@ -44,6 +47,7 @@ public class EnemyFollow : MonoBehaviour
             if (transform.position.x > PatrolPointTwo.position.x)
             {
                 GoingLeft = true;
+                sr.flipX = true;
             }
             else if (transform.position.x < PatrolPointOne.position.x)
             {

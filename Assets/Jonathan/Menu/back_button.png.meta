@@ -1,22 +1,10 @@
 fileFormatVersion: 2
-guid: 09272bcf9309bf048ae2281af85f2687
+guid: d16df62062b9240428ee8c3421b05571
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2430467758621194818
-    second: raccoon_walk_cycle_0
-  - first:
-      213: -1608245442019781552
-    second: raccoon_walk_cycle_1
-  - first:
-      213: -2095532755778648097
-    second: raccoon_walk_cycle_2
-  - first:
-      213: -8640075525359810757
-    second: raccoon_walk_cycle_3
-  - first:
-      213: 8078706912296100512
-    second: raccoon_walk_cycle_4
+      213: 909454856004693264
+    second: back_button_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -60,9 +48,9 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -138,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: raccoon_walk_cycle_0
+      name: back_button_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 750
-        width: 626
-        height: 285
+        x: 742
+        y: 538
+        width: 368
+        height: 141
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,92 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24af7ae9c81cab120800000000000000
-      internalID: 2430467758621194818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: raccoon_walk_cycle_1
-      rect:
-        serializedVersion: 2
-        x: 668
-        y: 749
-        width: 627
-        height: 286
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05415c49a4d5ea9e0800000000000000
-      internalID: -1608245442019781552
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: raccoon_walk_cycle_2
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 450
-        width: 624
-        height: 285
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd74e9caf0c2be2e0800000000000000
-      internalID: -2095532755778648097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: raccoon_walk_cycle_3
-      rect:
-        serializedVersion: 2
-        x: 668
-        y: 450
-        width: 627
-        height: 296
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b37c1663619481880800000000000000
-      internalID: -8640075525359810757
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: raccoon_walk_cycle_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 150
-        width: 631
-        height: 297
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a2e6e742255d1070800000000000000
-      internalID: 8078706912296100512
+      spriteID: 01de96f7f580f9c00800000000000000
+      internalID: 909454856004693264
       vertices: []
       indices: 
       edges: []
